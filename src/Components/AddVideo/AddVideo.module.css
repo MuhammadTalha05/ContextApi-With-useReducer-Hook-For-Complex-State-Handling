@@ -1,0 +1,39 @@
+.flexForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexForm input{
+    padding-inline:20px ;
+    padding-block: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
+
+.flexForm input::placeholder{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    /* letter-spacing: 0; */
+}
+
+.flexForm button{
+    margin-top:10px;
+    padding-block: 14px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dark Mode Theme Button Color */
+.flexForm > .darkMode{
+    background-color: white;
+    color: black;
+}

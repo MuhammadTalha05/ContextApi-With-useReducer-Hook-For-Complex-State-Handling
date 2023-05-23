@@ -1,0 +1,13 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+    gap:40px;
+}
+
+.darkMode{
+    background-color: black;
+    color: white;
+}
